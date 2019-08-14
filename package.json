@@ -1,0 +1,27 @@
+{
+  "name": "sipl-library",
+  "version": "1.3.2",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
